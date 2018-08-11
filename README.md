@@ -11,6 +11,8 @@ This project is part of Udacity's Self-Driving Car Course. A neural network is t
 
 The model is then used to drive the car around a track.
 
+![alt text](https://github.com/vishnuGovindaraj/Behavioral-Cloning-Project/blob/master/run1.gif "simulator run")
+
 ### Dependencies
 
 * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
