@@ -7,9 +7,11 @@ Overview
 
 ### About
 
-This project is part of Udacity's Self-Driving Car Course. A neural network is trained using the behaviors of a driver in a simulator.
+This project is part of Udacity's Self-Driving Car Course. A neural network is trained using the behavior of a driver in a simulator.
 
 The model is then used to drive the car around a track.
+
+See writeup.md for more details on how the model was trained
 
 ![alt text](https://github.com/vishnuGovindaraj/Behavioral-Cloning-Project/blob/master/run1.gif "simulator run")
 
