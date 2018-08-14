@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [image2]: ./images/left_image.png "left image"
 [image3]: ./images/right_image.png "right image"
 [image4]: ./images/center_image_flipped.png "center image flipped"
-[image5]: ./images/left_image_flipped_.png "left image cropped"
+[image5]: ./images/left_image_flipped.png "left image cropped"
 [image6]: ./images/right_image_flipped.png "right image cropped"
 [image7]: ./images/center_image_flipped_cropped.png "center image flipped and cropped"
 [image8]: ./images/left_image_flipped_cropped.png "left image flipped and cropped"
@@ -145,12 +145,13 @@ To augment the dataset I used the left and right camera images, and a corrected 
 
 To further augment the dataset I flipped all the images which increases the dataset by a factor of 2. So finally I get 6x the data from the original dataset.
 
-![alt text][image4]
-Center camera flipped
-![alt text][image5]
-Left camera flipped
-![alt text][image6]
+![alt text][image4]Center camera flipped
+
+Left camera flipped![alt text][image5]
+
 Right camera flipped
+![alt text][image6]
+
 
 To reduce the process time and prevent confusing the model. I cropped the top 70 pixels (which removes a lot of the sky). The bottom 25 pixels (removes the hood of the car) from all the images. This was done by keras.
 
