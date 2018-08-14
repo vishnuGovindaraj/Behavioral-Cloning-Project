@@ -2,7 +2,7 @@ import csv
 import cv2
 
 
-exit()
+
 #read in the csv file containing the paths to the images and vehicle control data
 lines = []
 with open('./data/driving_log.csv') as csvfile:
