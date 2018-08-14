@@ -137,35 +137,44 @@ Here is a visualization of the architecture:
 To augment the dataset I used the left and right camera images, and a corrected steering angle (+0.15, -0.15). This increases the dataset by a factor of 3
 
 ![alt text][image1] 
+
 Center Camera
 
 ![alt text][image2]
+
 Left camera
 
 ![alt text][image3]
+
 Right camera
 
 
 To further augment the dataset I flipped all the images which increases the dataset by a factor of 2. So finally I get 6x the data from the original dataset.
 
 ![alt text][image4]
+
 Center camera flipped
 
 ![alt text][image5]
+
 Left camera flipped
 
 ![alt text][image6]
+
 Right camera flipped
 
 To reduce the process time and prevent confusing the model. I cropped the top 70 pixels (which removes a lot of the sky). The bottom 25 pixels (removes the hood of the car) from all the images. This was done by keras.
 
 ![alt text][image7]
+
 Center camera flipped and cropped
 
 ![alt text][image8]
+
 Left camera flipped and cropped
 
 ![alt text][image9]
+
 Right camera flipped and cropped
 
 
